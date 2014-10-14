@@ -50,12 +50,36 @@
 		</div>
 		<!--End content-->
 		<div data-role="footer" data-position="fixed">
-			<div class="ui-grid-solo">
+			<div class="ui-grid-a">
 				<div class="ui-block-a">
 					<button id="positioning" data-theme="c">Start positioning</button>
+				</div>
+				<div class="ui-block-b">
+					<a href="#device" id="get-device-info" data-role="button" data-theme="c">
+						Device Info</a>
 				</div>
 			</div>
 		</div>
 	</div><!--First page end -->
+	<div id="device" data-role="page">
+		<div data-role="header" data-position="fixed">
+			<a href="#main" data-role="button" class="ui-btn-icon-left" data-rel="back"
+				data-theme="c">Back</a>
+			<h1>Device Info</h1>
+		</div>
+		<div data-role="content">
+			<ul data-role="listview" id="device-info" data-inset="true">
+				<li data-role="list-divider">Device information</li>
+			</ul>
+		</div>
+		<div data-role="footer" data-position="fixed">
+			<div class="ui-grid-solo">
+				<div class="ui-block-a">
+					<button id="reloadDeviceInfo" data-theme="c">
+						Reload Device Information</button>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>

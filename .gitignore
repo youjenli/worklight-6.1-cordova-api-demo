@@ -1,0 +1,78 @@
+# generated files
+/**/bin
+
+# cached files
+*~
+
+# Windows thumbnail db
+Thumbs.db
+
+# OSX files
+.DS_Store
+
+#built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated log files
+*.log
+
+# backup files
+*~.nib
+\#*#
+.#*
+
+# CVS folder
+CVS
+
+# worklight android project ignored files and folders
+/**/apps/**/android/native/assets/www
+/**/apps/**/android/native/assets/wlclient.properties
+/**/apps/**/android/native/bin
+/**/apps/**/android/native/gen
+/**/apps/**/android/native/local.properties
+
+# worklight android project ignored libs
+/**/apps/**/android/native/libs/bcprov.jar
+/**/apps/**/android/native/libs/cordova.jar
+/**/apps/**/android/native/libs/cordova_plugins.jar
+/**/apps/**/android/native/libs/gcm.jar
+/**/apps/**/android/native/libs/jackson-core-asl.jar
+/**/apps/**/android/native/libs/jackson-mapper-asl.jar
+/**/apps/**/android/native/libs/worklight-android.jar
+
+# iphone project ignored files
+/**/apps/**/iphone/package/*iphone.zip
+/**/apps/**/iphone/native/www
+/**/apps/**/iphone/native/cordova
+/**/apps/**/iphone/native/CordovaLib
+/**/apps/**/iphone/native/WorklightSDK
+/**/apps/**/iphone/native/worklight.plist
+/**/apps/**/iphone/native/Settings.bundle/Root.plist
+
+# iphone project ignored IDE settings
+*.pbxuser
+*.xcuserstate
+/**/apps/**/iphone/native/*.xcodeproj/project.xcworkspace
+/**/apps/**/iphone/native/*.xcodeproj/xcuserdata
+
+# ipad project ignored files
+/**/apps/**/ipad/package/*ipad.zip
+/**/apps/**/ipad/native/www
+/**/apps/**/ipad/native/cordova
+/**/apps/**/ipad/native/CordovaLib
+/**/apps/**/ipad/native/WorklightSDK
+/**/apps/**/ipad/native/worklight.plist
+/**/apps/**/ipad/native/Settings.bundle/Root.plist
+
+# ipad project ignored IDE settings
+*.pbxuser
+*.xcuserstate
+/**/apps/**/ipad/native/*.xcodeproj/project.xcworkspace
+/**/apps/**/ipad/native/*.xcodeproj/xcuserdata
